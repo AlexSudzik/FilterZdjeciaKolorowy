@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/john"
+        android:layout_width="440dp"
+        android:layout_height="281dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginBottom="414dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/johnxina" />
+
+    <ToggleButton
+        android:id="@+id/Bred"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="85dp"
+        android:layout_marginEnd="268dp"
+        android:layout_marginBottom="281dp"
+        android:text="Red"
+        android:textOff="red off"
+        android:textOn="red on"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/john" />
+
+    <ToggleButton
+        android:id="@+id/Bblue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="85dp"
+        android:layout_marginEnd="162dp"
+        android:layout_marginBottom="281dp"
+        android:text="Blue"
+        android:textOff="Blue off"
+        android:textOn="blue on"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Bred"
+        app:layout_constraintTop_toBottomOf="@+id/john" />
+
+    <ToggleButton
+        android:id="@+id/Bgreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="85dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="281dp"
+        android:text="Green"
+        android:textOff="green Off"
+        android:textOn="green ON"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Bblue"
+        app:layout_constraintTop_toBottomOf="@+id/john" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
