@@ -19,42 +19,42 @@ class MainActivity : AppCompatActivity() {
         Bred.setOnCheckedChangeListener { _, isChecked ->
             if (isChecked) {
                 john.setColorFilter(null);
-                john.setColorFilter(resources.getColor(R.color.redColor));
-
                 Bblue.setChecked(false);
                 Bgreen.setChecked(false);
+
+                john.setColorFilter(resources.getColor(R.color.redColor));
             } else {
                 john.setColorFilter(null);
-                Bblue.setChecked(false);
-                Bgreen.setChecked(false);
+                //Bblue.setChecked(false);
+                //Bgreen.setChecked(false);
             }
         }
 
         Bblue.setOnCheckedChangeListener { _, isChecked ->
             if (isChecked) {
                 john.setColorFilter(null);
-                john.setColorFilter(resources.getColor(R.color.blueColor));
-
                 Bred.setChecked(false);
                 Bgreen.setChecked(false);
+
+                john.setColorFilter(resources.getColor(R.color.blueColor));
             } else {
                 john.setColorFilter(null);
-                Bred.setChecked(false);
-                Bgreen.setChecked(false);
+                //Bred.setChecked(false);
+                //Bgreen.setChecked(false);
             }
         }
 
         Bgreen.setOnCheckedChangeListener { _, isChecked ->
             if (isChecked) {
                 john.setColorFilter(null);
-                john.setColorFilter(resources.getColor(R.color.greenColor));
-
                 Bblue.setChecked(false);
                 Bred.setChecked(false);
+
+                john.setColorFilter(resources.getColor(R.color.greenColor));
             } else {
                 john.setColorFilter(null);
-                Bblue.setChecked(false);
-                Bred.setChecked(false);
+                //Bblue.setChecked(false);
+                //Bred.setChecked(false);
             }
         }
 
