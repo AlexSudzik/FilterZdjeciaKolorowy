@@ -25,8 +25,6 @@ class MainActivity : AppCompatActivity() {
                 john.setColorFilter(resources.getColor(R.color.redColor));
             } else {
                 john.setColorFilter(null);
-                //Bblue.setChecked(false);
-                //Bgreen.setChecked(false);
             }
         }
 
@@ -39,8 +37,6 @@ class MainActivity : AppCompatActivity() {
                 john.setColorFilter(resources.getColor(R.color.blueColor));
             } else {
                 john.setColorFilter(null);
-                //Bred.setChecked(false);
-                //Bgreen.setChecked(false);
             }
         }
 
@@ -53,8 +49,6 @@ class MainActivity : AppCompatActivity() {
                 john.setColorFilter(resources.getColor(R.color.greenColor));
             } else {
                 john.setColorFilter(null);
-                //Bblue.setChecked(false);
-                //Bred.setChecked(false);
             }
         }
 
